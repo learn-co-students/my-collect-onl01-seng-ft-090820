@@ -1,11 +1,11 @@
 list = ["Jones Tim", "Costas Bob", "Knotts Don"]
 
 
-def my_collect(array)
+def my_collect(backwards_name)
   i = 0
   name_collection = []
-  while i < array.length
-    name_collection.push yield(array[i])
+  while i < backwards_name.length
+    name_collection.push yield(backwards_name[i])
     i += 1
   end
   name_collection
